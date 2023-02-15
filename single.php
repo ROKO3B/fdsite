@@ -10,7 +10,7 @@
                 <img decoding="async" src="<?php the_post_thumbnail_url('full');?>" alt="">
             </div><!-----item-img-------->
               <div class="item-text">
-                <?php the_content(); ?> 
+                <?php the_content(); ?>
                 <p>&yen;<?php echo esc_html(get_post_meta(get_the_ID(),'price',true)); ?>+tax</p>
                 <dl>
                 <dt>SIZE: </dt>

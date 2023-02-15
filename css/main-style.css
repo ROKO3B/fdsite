@@ -276,6 +276,25 @@ main {
   font-size: 10px;
 }
 
+.pagination {
+  padding-top: 30px;
+}
+
+.pagination ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.pagination li {
+  padding: 0 10px;
+}
+
+.pagination ul a:hover {
+  opacity: 0.7;
+}
+
+
 /*--------------------sp------------------*/
 @media screen and (max-width: 900px) {
   .grid {
