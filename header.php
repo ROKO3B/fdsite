@@ -5,16 +5,18 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta description content="テキストテキストテキスト">
-  <link rel="shortcut icon" href="img/favicon.ico">
   <title><?php echo bloginfo('name'); ?></title>
+  <meta name="description" content="<?php bloginfo('description'); ?>">
+  <link rel="shortcut icon" href="img/favicon.ico">
 
   <?php wp_head(); ?>
 </head>
+
 <body>
   <header id="header" class="wrapper">
     <h1 class="site-title">
       <a href="<?php echo esc_url(home_url()); ?>">
-        <img decoding="async" src="<?php echo esc_url(get_theme_file_uri('img/logo.svg')); ?>" alt="Furniture Design">
+        <img src="<?php echo esc_url(get_theme_file_uri('img/logo.svg')); ?>" alt="Furniture Design">
       </a>
     </h1>
 
